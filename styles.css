@@ -68,10 +68,9 @@ li a{
 {
     font-weight: bold;
 }
-form #cm{
+form .col-md-4{
     width: 50%;
 }
-
 
 button {
     width: 15%;
