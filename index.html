@@ -39,7 +39,7 @@
                 </div>
             <form class="forms">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                             <div class="form-group mb-5">
                             <input type="text"  placeholder="Name *" required>
                             </div>
@@ -47,7 +47,7 @@
                                 <input type="text"  placeholder="Email *" required>
                             </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4" id="cm">
                             <div class="form-group mb-5">
                                 <input type="text"  placeholder="Company Name *" required>
                             </div>
@@ -59,6 +59,7 @@
                                             <option value="India">India</option>
                                             <option value="US">US</option>
                                             <option value="UK">UK</option>
+                                            <option value="Ger">Germany</option>
                                         </select>
                                     </div>
                                     <div class="col-md-9">
@@ -84,7 +85,7 @@
                             <div class="side-info">
                                 <div class="info mb-5">
                                     <h3> Hate filling out<br> form?</h3>
-                                    <p>Email us .</p>
+                                    <p>Email us.</p>
                                 </div>
                                
                                 <div class="info-2 mb-5">
@@ -134,6 +135,11 @@ function code()
     else if (val === 'US')
     {
         document.getElementById("output").value = "+1";
+    }
+
+    else if (val === 'Ger')
+    {
+        document.getElementById("output").value = "+49";
     }
 
 }
