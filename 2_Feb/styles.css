@@ -1,0 +1,45 @@
+.box {
+    background-color: red;
+    height: 100px;
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+}
+
+.box:hover{
+    background-color: violet;
+}
+
+h1:hover::after
+{
+    content: "ghjk";
+}
+
+.main-box{
+    display:flex;
+    justify-content: center;     
+}
+/* tab view */
+@media only screen and (max-width :769px) {
+    .box {
+        background-color: green;
+    }   
+}
+
+/* mobile view */
+/* only 2 rows in mobile view  */ 
+@media only screen and (max-width :500px) {
+    .box {
+        background-color: yellow;
+        width: 40%;
+    }  
+    .main-box
+    {
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* ::before , ::after , :focus ::placeholder ::nth-child :hover ::after */
+
