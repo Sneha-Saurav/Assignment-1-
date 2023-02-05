@@ -1,0 +1,180 @@
+
+.row{
+margin: 0px;
+}
+
+.container
+{
+    max-width: 1170px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+ul 
+{
+    list-style: none;
+}
+.row 
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+header .nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+ 
+.align-items-center
+{
+    align-items: center;
+}
+
+.justifiy-content-between
+{
+    justify-content: space-between;
+}
+
+header {
+    background-color: orangered;
+}
+ 
+.logo {
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.responsive1 {
+    width: 100%;
+    height: 310px;
+}
+
+.centered {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%); 
+} 
+
+.container1
+{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.container2
+{
+    margin: auto;
+    width: 900px;
+    text-align: center;
+}
+
+.container2 h1 
+{
+    text-decoration: 2px underline orange;
+}
+
+#banner-col {
+    display: flex;
+    margin-top: 20px;
+}
+
+#banner-col img
+{
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+
+.read-more {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.read-more button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+
+}
+
+.img
+{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+@media only screen and (max-width:768px) {
+
+ #banner-col{
+    flex-wrap: wrap;
+   text-align: center;
+}
+
+.responsive
+{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header .nav ul li {
+    margin-left:10px;
+}
+
+.container2{
+    width: 400px;
+}
+
+.container1
+{
+   font-size: 13px;
+}
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+    header
+    {
+        margin-right: -35px;
+
+    }
+     .container1
+    {
+    font-size: 10px;
+    }
+
+    .container2{
+        width: 200px;
+    }
+
+    .responsive1 {
+        width: 111%;
+    }
+
+    .nav{
+        font-size: 10px;
+
+    }
+
+}
+
