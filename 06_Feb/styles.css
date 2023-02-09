@@ -136,13 +136,15 @@ img{
     width: 100%;
 }
 
+
 .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 25px;
     border: 1px solid #888;
     width: 80%;
     color: black;
+    display: flex;
   }
   
   /* The Close Button */
