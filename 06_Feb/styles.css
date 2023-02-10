@@ -145,8 +145,8 @@ img{
     color: black;
   }
   
-  /* The Close Button */
-  .close {
+  /* The Close Button */ 
+   .close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -159,6 +159,12 @@ img{
     text-decoration: none;
     cursor: pointer;
   }
+  .modal-content .flex
+  {
+    display: flex;
+  }
+
+  
 
 
 @media only screen and (max-width: 970px)  {
