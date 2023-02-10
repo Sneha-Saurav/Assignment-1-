@@ -137,7 +137,7 @@ img{
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #e49393;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -156,6 +156,7 @@ img{
   .close:hover,
   .close:focus {
     color: #000;
+    font-weight: bold;
     text-decoration: none;
     cursor: pointer;
   }
