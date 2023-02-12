@@ -1,0 +1,19 @@
+/* .parent {
+    position: relative;
+    border: 2px solid #4B5681;
+    background: #7E89B4;
+    height: 100px;
+    margin-top: 19%;
+  }
+   */
+
+  .child {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(26, 70, 109);
+    height: 10px;
+    width: 10px;
+  }
