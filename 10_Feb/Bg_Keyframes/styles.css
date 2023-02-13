@@ -3,7 +3,7 @@ body
 {
     background-color: #F6F7C1;
 }
-div 
+.change-bg-color 
 {
     height: 500px;
     background-image: url('https://th.bing.com/th/id/OIP.4qoZ6G0gdWqBke_VnxwOQwHaD-?w=329&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
@@ -11,12 +11,12 @@ div
     background-size: cover;
     background-position: 100% 60%;
     text-align: center;
-    animation-name: change_bg;
+    animation-name: change_bg_key;
     animation-duration: 4s;
 }
 
 
-@keyframes change_bg{
+@keyframes change_bg_key {
     from {background-image: url('https://th.bing.com/th/id/OIP.4qoZ6G0gdWqBke_VnxwOQwHaD-?w=329&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');}
     to {background-image: url('https://th.bing.com/th/id/OIP.3X2beadu1wlqHV-XosFQygHaFb?pid=ImgDet&w=750&h=550&rs=1');}
     
