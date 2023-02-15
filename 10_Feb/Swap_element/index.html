@@ -11,14 +11,14 @@
         $(document).ready(function(){
 
             
-            $("#appendTo").click(function(){
+            $("#unorder-list").click(function(){
                 $("#name_list li:first-child").each(function() 
                 {
                     $(this).remove().appendTo('#swap_res ul');
                 })
              })
 
-             $("#prependTo").click(function()
+             $("#swap-list").click(function()
              {    
              $("#swap_res li:first-child").each(function() 
                 {
@@ -32,7 +32,7 @@
 <body>
     <div class="swap_ele" id="name_list">
         <div class="list">
-            <ul>
+            <ul id="unorder-list">
                 <li>Sneha</li>
                 <li>Sanya</li>
                 <li>Shruti</li>
@@ -41,18 +41,9 @@
                 <li>Diksha</li>
             </ul>
         </div>
-        <div class="btn">
-            <div class="append">
-                <button id="appendTo">append To another div</button>
-
-            </div>
-            <div class="prepend">
-                <button id="prependTo">back to main div</button>
-            </div>
-            
-        </div>
+        
         <div class="swap" id="swap_res">
-            <ul>
+            <ul id="swap-list">
             </ul>
            
     
