@@ -29,21 +29,21 @@
                 <label for="fname">
                   <span>FirstName: </span>
                 </label>
-                <input type="text" id="name" name="firstname" required />
+                <input type="text" id="name" name="firstname" required aria-label="Enter your first name" />
                 <span></span>
               </p>
               <p>
                 <label for="lname">
                   <span>Lastname: </span>
                 </label>
-                <input type="text" id="lname" name="lname"  required />
+                <input type="text" id="lname" name="lname"  required  aria-label="Enter your Last name"/>
                 <span></span>
               </p>
               <p>
                 <label for="pwd">
                   <span>Email: </span>
                 </label>
-                <input type="email" id="email" name="email" required />
+                <input type="email" id="email" name="email" required aria-label="Enter your Email" />
                 <span></span>
               </p>
 
@@ -51,7 +51,7 @@
               <label for="year">
                 <span>Birth year:
               </label>
-              <input type="month" id="bdaymonth" name="bdaymonth" required>
+              <input type="month" id="bdaymonth" name="bdaymonth" required aria-label="Enter your birth Year">
               <span></span>
             </p>
 
@@ -59,20 +59,23 @@
                 <legend>Gender</legend>
                 <ul>
                   <li>
-                    <label for="gender_1">
-                      <input type="radio" id="gender_1" name="gender_1" value="Male" />
+                    <label  for="male-for" class="gender-label">
+                      <input type="radio" name="gender"
+                      id="male-for"value="Male" />
                       Male
                     </label>
                   </li>
                   <li>
-                    <label for="gender_2">
-                      <input type="radio" id="gender_2" name="gender_2" value="Female" />
+                    <label for="female-for" class="gender-label">
+                      <input type="radio" name="gender"
+                      id="female-for" value="Female" />
                       Female
                     </label>
                   </li>
                   <li>
-                    <label for="gender_3">
-                      <input type="radio" id="gender_3" name="gender_3" value="Others" />
+                    <label for="other-for" class="gender-label">
+                      <input type="radio" name="gender"
+                      id="other-for" value="Others" />
                       Others
                     </label>
                   </li>

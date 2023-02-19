@@ -91,6 +91,12 @@ legend {
     right: 0;
   }
 
+  fieldset  li {
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
   input[type="radio"]::before {
     display: block;
     content: " ";
@@ -119,11 +125,7 @@ legend {
     top: -3px;
   }
 
-  fieldset > li {
-    margin-bottom: 20px;
-    display: flex;
-    flex-flow: row wrap;
-  }
+
 
 
    input[type="checkbox"] {
